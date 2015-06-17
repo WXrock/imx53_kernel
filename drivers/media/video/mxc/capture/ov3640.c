@@ -197,7 +197,7 @@ static struct reg_value ov3640_setting_30fps_XGA_1024_768[] = {
 
 static struct reg_value ov3640_setting_15fps_VGA_640_480[] = {
 
-{0x3013, 0xf7,0,0}, //open ag/ae
+{0x3013, 0xc7}, //open ag/ae
 {0x302d, 0x00}, //clear dummy frame
 {0x302e, 0x00},
 {0x3011, 0x00}, //15fps
@@ -228,7 +228,7 @@ static struct reg_value ov3640_setting_15fps_VGA_640_480[] = {
 
 static struct reg_value ov3640_setting_30fps_VGA_640_480[] = {
 
-{0x3013, 0xf7,0,0}, //open ag/ae
+{0x3013, 0xc7}, //open ag/ae
 {0x302d, 0x00}, //clear dummy frame
 {0x302e, 0x00},
 {0x3011, 0x00}, //15fps
